@@ -120,7 +120,7 @@ if __name__ == '__main__':
     output_folder = 'results'
     filenames = [f for f in os.listdir(input_folder) if os.path.isfile(os.path.join(input_folder, f))]
     for filename in filenames:
-        for b in range(10, 50, 10):
+        for b in [20, 80]:
             segmented = MS(filename=filename, bandwidth=b, gaussian=0)
             print("Saving the segmented image ...")
             segmented.save(os.path.join(output_folder, filename[:-4] + '_' + str(b) + filename[-4:]))
