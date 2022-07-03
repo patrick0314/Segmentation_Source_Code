@@ -9,9 +9,9 @@
 6. Normalized cuts - matlab
 7. Efficient graph-based image segmentation - python
 8. Segmentation using superpixels: A bipartite graph partitioning approach - matlab
-9. Learning full pairwise affinities for spectral segmentation
-10. A novel spectral clustering method with superpixels for image segmentation
-11. A deep model for fully unsupervised image segmentation
+> 9. Learning full pairwise affinities for spectral segmentation
+10. Spectral Clustering Segmentation - python
+11. A deep model for fully unsupervised image segmentation - python
 12. Learning deconvolution network for semantic segmentation
 13. Fully convolutional networks for semantic segmentation
 14. Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected CRFs
